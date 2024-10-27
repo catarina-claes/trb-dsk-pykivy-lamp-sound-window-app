@@ -537,7 +537,7 @@ class ScreenWTM(MDScreen):
     def __init__(self, **kwargs):
         super(ScreenWTM, self).__init__(**kwargs)
         Clock.schedule_once(self.delayed_init, 2)
-        
+        #
     def delayed_init(self, dt):
         pass
 
